@@ -1,0 +1,22 @@
+==37836== 1,672 bytes in 11 blocks are possibly lost in loss record 120 of 136
+==37836==    at 0x4C33B25: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==37836==    by 0x4E6DB24: Curl_ftp_parselist (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E53FF1: Curl_client_chop_write (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E6B23E: Curl_readwrite (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E73C4A: multi_runsingle (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E75053: curl_multi_perform (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E6C5B3: curl_easy_perform (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x109009: test (in /home/runner/-/curl-7.54.1/tests/libtest/.libs/lib575)
+==37836==    by 0x50C8BF6: (below main) (libc-start.c:310)
+==37836== 
+==37836== 1,760 bytes in 11 blocks are possibly lost in loss record 123 of 136
+==37836==    at 0x4C31B0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==37836==    by 0x4E6DB44: Curl_ftp_parselist (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E53FF1: Curl_client_chop_write (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E6B23E: Curl_readwrite (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E73C4A: multi_runsingle (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E75053: curl_multi_perform (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x4E6C5B3: curl_easy_perform (in /home/runner/-/curl-7.54.1/lib/.libs/libcurl.so.4.4.0)
+==37836==    by 0x109009: test (in /home/runner/-/curl-7.54.1/tests/libtest/.libs/lib575)
+==37836==    by 0x50C8BF6: (below main) (libc-start.c:310)
+==37836== 

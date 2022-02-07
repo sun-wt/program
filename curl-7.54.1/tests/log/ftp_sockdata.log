@@ -1,0 +1,230 @@
+14:56:31.646895 Running IPv4 version
+14:56:31.647183 Listening on port 43951
+14:56:31.648004 Wrote pid 37865 to ./.ftp_sockdata.pid
+14:56:31.648083 Received PING (on stdin)
+14:56:31.658201 Received PORT (on stdin)
+14:56:31.692520 ====> Client connect
+14:56:31.722144 Received DATA (on stdin)
+14:56:31.722319 > 64 bytes data, server => client
+14:56:31.722378 'drwxrwxrwx    4 ftp-default ftp-default   20480 Apr 27  5:12 '
+14:56:31.722410 '.\r\n'
+14:56:31.722519 Received DATA (on stdin)
+14:56:31.722563 > 65 bytes data, server => client
+14:56:31.722599 'drwxrwxrwx    4 ftp-default ftp-default   20480 Apr 23  3:12 '
+14:56:31.722630 '..\r\n'
+14:56:31.722690 Received DATA (on stdin)
+14:56:31.722729 > 69 bytes data, server => client
+14:56:31.722768 '-r--r--r--    1 ftp-default ftp-default      38 Jan 11 10:00 '
+14:56:31.722797 'chmod1\r\n'
+14:56:31.722851 Received DATA (on stdin)
+14:56:31.722890 > 69 bytes data, server => client
+14:56:31.722928 '-rw-rw-rw-    1 ftp-default ftp-default      38 Feb  1  8:00 '
+14:56:31.722957 'chmod2\r\n'
+14:56:31.723001 Received DATA (on stdin)
+14:56:31.723996 > 69 bytes data, server => client
+14:56:31.724059 '-rwxrwxrwx    1 ftp-default ftp-default      38 Feb  1  8:00 '
+14:56:31.724101 'chmod3\r\n'
+14:56:31.724178 Received DATA (on stdin)
+14:56:31.724237 > 69 bytes data, server => client
+14:56:31.724287 'd--S--S--t    1 ftp-default ftp-default    4096 May  4  4:31 '
+14:56:31.724330 'chmod4\r\n'
+14:56:31.724393 Received DATA (on stdin)
+14:56:31.724436 > 69 bytes data, server => client
+14:56:31.724483 'd--s--s--T    1 ftp-default ftp-default    4096 May  4  4:31 '
+14:56:31.724525 'chmod5\r\n'
+14:56:31.724582 Received DATA (on stdin)
+14:56:31.724622 > 77 bytes data, server => client
+14:56:31.724658 '-rw-r--r--    1 ftp-default ftp-default       0 Apr 27 11:01 '
+14:56:31.724691 'empty_file.dat\r\n'
+14:56:31.724737 Received DATA (on stdin)
+14:56:31.724766 > 71 bytes data, server => client
+14:56:31.724795 '-rw-r--r--    1 ftp-default ftp-default      35 Apr 27 11:01 '
+14:56:31.724812 'file.txt\r\n'
+14:56:31.724848 Received DATA (on stdin)
+14:56:31.724883 > 79 bytes data, server => client
+14:56:31.724916 'lrwxrwxrwx    1 ftp-default ftp-default       0 Jan  6  4:42 '
+14:56:31.724937 'link -> file.txt\r\n'
+14:56:31.724964 Received DATA (on stdin)
+14:56:31.726223 > 98 bytes data, server => client
+14:56:31.726267 'lrwxrwxrwx    1 ftp-default ftp-default       0 Jan  6  4:45 '
+14:56:31.726290 'link_absolute -> /data/ftp/file.txt\r\n'
+14:56:31.726333 Received DATA (on stdin)
+14:56:31.726355 > 68 bytes data, server => client
+14:56:31.726399 'drwxrwxrwx    4 ftp-default ftp-default    4096 Jan 23  2:05 '
+14:56:31.726418 '.NeXT\r\n'
+14:56:31.726448 Received DATA (on stdin)
+14:56:31.726468 > 80 bytes data, server => client
+14:56:31.726492 '-rw-r--r--    1 ftp-default ftp-default      47 Apr 27 11:01 '
+14:56:31.726509 'someothertext.txt\r\n'
+14:56:31.726535 Received DATA (on stdin)
+14:56:31.726555 > 75 bytes data, server => client
+14:56:31.726577 'drwxr-xrwx    2 ftp-default ftp-default    4096 Apr 23  3:12 '
+14:56:31.726597 'weirddir.txt\r\n'
+14:56:31.726643 Received DISC (on stdin)
+14:56:31.726691 ====> Client forcibly disconnected
+14:56:31.729198 Received QUIT (on stdin)
+14:56:31.734150 quits
+14:56:31.734258 ============> sockfilt quits
+14:56:32.978963 Running IPv4 version
+14:56:32.979140 Listening on port 45655
+14:56:32.979241 Wrote pid 37867 to ./.ftp_sockdata.pid
+14:56:32.979282 Received PING (on stdin)
+14:56:32.979549 Received PORT (on stdin)
+14:56:32.984327 ====> Client connect
+14:56:32.997985 Received DATA (on stdin)
+14:56:32.998034 > 38 bytes data, server => client
+14:56:32.998065 'This file should have permissions 444\n'
+14:56:33.002440 Received DISC (on stdin)
+14:56:33.002523 ====> Client forcibly disconnected
+14:56:33.003140 Received QUIT (on stdin)
+14:56:33.003186 quits
+14:56:33.003237 ============> sockfilt quits
+14:56:32.024553 Running IPv4 version
+14:56:32.024719 Listening on port 42549
+14:56:32.024833 Wrote pid 37869 to ./.ftp_sockdata.pid
+14:56:32.031046 Received PING (on stdin)
+14:56:32.031344 Received PORT (on stdin)
+14:56:32.033684 ====> Client connect
+14:56:32.036657 Received DATA (on stdin)
+14:56:32.036716 > 38 bytes data, server => client
+14:56:32.036752 'This file should have permissions 666\n'
+14:56:32.036820 Received DISC (on stdin)
+14:56:32.039375 ====> Client forcibly disconnected
+14:56:32.039471 Received QUIT (on stdin)
+14:56:32.039507 quits
+14:56:32.039550 ============> sockfilt quits
+14:56:32.089174 Running IPv4 version
+14:56:32.089320 Listening on port 33697
+14:56:32.089434 Wrote pid 37871 to ./.ftp_sockdata.pid
+14:56:32.089478 Received PING (on stdin)
+14:56:32.093893 Received PORT (on stdin)
+14:56:32.095574 ====> Client connect
+14:56:32.096976 Received DATA (on stdin)
+14:56:32.097035 > 38 bytes data, server => client
+14:56:32.097075 'This file should have permissions 777\n'
+14:56:32.097166 Received DISC (on stdin)
+14:56:32.097220 ====> Client forcibly disconnected
+14:56:32.097333 Received QUIT (on stdin)
+14:56:32.097392 quits
+14:56:32.097446 ============> sockfilt quits
+14:56:32.112846 Running IPv4 version
+14:56:32.113050 Listening on port 36323
+14:56:32.113196 Wrote pid 37873 to ./.ftp_sockdata.pid
+14:56:32.113250 Received PING (on stdin)
+14:56:32.114803 Received PORT (on stdin)
+14:56:32.116548 ====> Client connect
+14:56:32.121293 Received DATA (on stdin)
+14:56:32.121353 > 0 bytes data, server => client
+14:56:32.121404 got 0 reading from stdin
+14:56:32.121438 Received DISC (on stdin)
+14:56:32.121467 ====> Client forcibly disconnected
+14:56:32.122049 Received QUIT (on stdin)
+14:56:32.122237 quits
+14:56:32.122309 ============> sockfilt quits
+14:56:32.176228 Running IPv4 version
+14:56:32.176683 Listening on port 37081
+14:56:32.176812 Wrote pid 37875 to ./.ftp_sockdata.pid
+14:56:32.178333 Received PING (on stdin)
+14:56:32.179080 Received PORT (on stdin)
+14:56:32.182482 ====> Client connect
+14:56:32.183978 Received DATA (on stdin)
+14:56:32.184038 > 35 bytes data, server => client
+14:56:32.184077 'This is content of file "file.txt"\n'
+14:56:32.184149 Received DISC (on stdin)
+14:56:32.184193 ====> Client forcibly disconnected
+14:56:32.186322 Received QUIT (on stdin)
+14:56:32.186398 quits
+14:56:32.186443 ============> sockfilt quits
+14:56:32.193338 Running IPv4 version
+14:56:32.193701 Listening on port 45993
+14:56:32.193843 Wrote pid 37877 to ./.ftp_sockdata.pid
+14:56:32.193890 Received PING (on stdin)
+14:56:32.194254 Received PORT (on stdin)
+14:56:32.197892 ====> Client connect
+14:56:32.199152 Received DATA (on stdin)
+14:56:32.199189 > 47 bytes data, server => client
+14:56:32.199219 'Some junk ;-) This file does not really exist.\n'
+14:56:32.199280 Received DISC (on stdin)
+14:56:32.199317 ====> Client forcibly disconnected
+14:56:32.200638 Received QUIT (on stdin)
+14:56:32.200681 quits
+14:56:32.200725 ============> sockfilt quits
+14:56:32.271489 Running IPv4 version
+14:56:32.271701 Listening on port 38597
+14:56:32.271939 Wrote pid 37879 to ./.ftp_sockdata.pid
+14:56:32.272014 Received PING (on stdin)
+14:56:32.273791 Received PORT (on stdin)
+14:56:32.275986 ====> Client connect
+14:56:32.280277 Received DATA (on stdin)
+14:56:32.280442 > 64 bytes data, server => client
+14:56:32.280488 'drwxrwxrwx    4 ftp-default ftp-default   20480 Apr 27  5:12 '
+14:56:32.280520 '.\r\n'
+14:56:32.280586 Received DATA (on stdin)
+14:56:32.280629 > 65 bytes data, server => client
+14:56:32.280663 'drwxrwxrwx    4 ftp-default ftp-default   20480 Apr 23  3:12 '
+14:56:32.280688 '..\r\n'
+14:56:32.280746 Received DATA (on stdin)
+14:56:32.280775 > 69 bytes data, server => client
+14:56:32.280804 '-r--r--r--    1 ftp-default ftp-default      38 Jan 11 10:00 '
+14:56:32.280827 'chmod1\r\n'
+14:56:32.280861 Received DATA (on stdin)
+14:56:32.280888 > 69 bytes data, server => client
+14:56:32.280953 '-rw-rw-rw-    1 ftp-default ftp-default      38 Feb  1  8:00 '
+14:56:32.280979 'chmod2\r\n'
+14:56:32.281018 Received DATA (on stdin)
+14:56:32.281045 > 69 bytes data, server => client
+14:56:32.281077 '-rwxrwxrwx    1 ftp-default ftp-default      38 Feb  1  8:00 '
+14:56:32.281102 'chmod3\r\n'
+14:56:32.281170 Received DATA (on stdin)
+14:56:32.281208 > 69 bytes data, server => client
+14:56:32.281264 'd--S--S--t    1 ftp-default ftp-default    4096 May  4  4:31 '
+14:56:32.281295 'chmod4\r\n'
+14:56:32.281340 Received DATA (on stdin)
+14:56:32.281372 > 69 bytes data, server => client
+14:56:32.281404 'd--s--s--T    1 ftp-default ftp-default    4096 May  4  4:31 '
+14:56:32.281428 'chmod5\r\n'
+14:56:32.281464 Received DATA (on stdin)
+14:56:32.281511 > 77 bytes data, server => client
+14:56:32.281543 '-rw-r--r--    1 ftp-default ftp-default       0 Apr 27 11:01 '
+14:56:32.281569 'empty_file.dat\r\n'
+14:56:32.281611 Received DATA (on stdin)
+14:56:32.281642 > 71 bytes data, server => client
+14:56:32.281676 '-rw-r--r--    1 ftp-default ftp-default      35 Apr 27 11:01 '
+14:56:32.281716 'file.txt\r\n'
+14:56:32.281758 Received DATA (on stdin)
+14:56:32.281790 > 79 bytes data, server => client
+14:56:32.281824 'lrwxrwxrwx    1 ftp-default ftp-default       0 Jan  6  4:42 '
+14:56:32.281852 'link -> file.txt\r\n'
+14:56:32.281895 Received DATA (on stdin)
+14:56:32.281925 > 98 bytes data, server => client
+14:56:32.281958 'lrwxrwxrwx    1 ftp-default ftp-default       0 Jan  6  4:45 '
+14:56:32.285010 'link_absolute -> /data/ftp/file.txt\r\n'
+14:56:32.285124 Received DATA (on stdin)
+14:56:32.285168 > 68 bytes data, server => client
+14:56:32.285215 'drwxrwxrwx    4 ftp-default ftp-default    4096 Jan 23  2:05 '
+14:56:32.285246 '.NeXT\r\n'
+14:56:32.285298 Received DATA (on stdin)
+14:56:32.285334 > 80 bytes data, server => client
+14:56:32.285374 '-rw-r--r--    1 ftp-default ftp-default      47 Apr 27 11:01 '
+14:56:32.285406 'someothertext.txt\r\n'
+14:56:32.285455 Received DATA (on stdin)
+14:56:32.285488 > 75 bytes data, server => client
+14:56:32.285523 'drwxr-xrwx    2 ftp-default ftp-default    4096 Apr 23  3:12 '
+14:56:32.285547 'weirddir.txt\r\n'
+14:56:32.285585 Received DISC (on stdin)
+14:56:32.285622 ====> Client forcibly disconnected
+14:56:32.292968 Running IPv4 version
+14:56:32.293113 Listening on port 44269
+14:56:32.293355 Wrote pid 37881 to ./.ftp_sockdata.pid
+14:56:32.293404 Received PING (on stdin)
+14:56:32.293582 Received PORT (on stdin)
+14:56:32.294281 Received QUIT (on stdin)
+14:56:32.294417 quits
+14:56:32.294571 ============> sockfilt quits
+14:56:32.295192 ====> Client connect
+14:56:32.297216 Received DATA (on stdin)
+14:56:32.297260 > 38 bytes data, server => client
+14:56:32.297311 'This file should have permissions 444\n'
+15:04:17.920953 got 0 reading from stdin
+15:04:17.921303 exiting...
+15:04:17.921387 ============> sockfilt quits

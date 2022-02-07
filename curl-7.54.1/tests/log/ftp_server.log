@@ -1,0 +1,179 @@
+14:56:31.846011 ====> Client connect
+14:56:31.846541 > "220-        _   _ ____  _     [CR][LF]220-    ___| | | |  _ \| |    [CR][LF]220-   / __| | | | |_) | |    [CR][LF]220-  | (__| |_| |  _ {| |___ [CR][LF]220    \___|\___/|_| \_\_____|[CR][LF]"
+14:56:31.887510 < "USER anonymous"
+14:56:31.887697 > "331 We are happy you popped in![CR][LF]"
+14:56:31.909535 < "PASS ftp@example.com"
+14:56:31.909671 > "230 Welcome you silly person[CR][LF]"
+14:56:31.911338 < "PWD"
+14:56:31.911493 > "257 "/" is current directory[CR][LF]"
+14:56:31.959150 < "CWD fully_simulated"
+14:56:31.959273 > "250 CWD command successful.[CR][LF]"
+14:56:31.972757 < "CWD UNIX"
+14:56:31.972897 > "250 CWD command successful.[CR][LF]"
+14:56:31.974871 < "EPSV"
+14:56:31.974952 ====> Passive DATA channel requested by client
+14:56:31.974990 DATA sockfilt for passive data channel starting...
+14:56:31.986656 DATA sockfilt for passive data channel started (pid 37864)
+14:56:31.996562 DATA sockfilt for passive data channel listens on port 43951
+14:56:31.996741 > "229 Entering Passive Mode (|||43951|)[LF]"
+14:56:31.996796 Client has been notified that DATA conn will be accepted on port 43951
+14:56:32.038834 Client connects to port 43951
+14:56:32.038995 ====> Client established passive DATA connection on port 43951
+14:56:32.048371 < "TYPE A"
+14:56:32.048492 > "200 I modify TYPE as you wanted[CR][LF]"
+14:56:32.057332 < "LIST"
+14:56:32.057441 > "150 here comes a directory[CR][LF]"
+14:56:32.057703 pass LIST data on data connection
+14:56:32.058145 =====> Closing passive DATA connection...
+14:56:32.058195 Server disconnects passive DATA connection
+14:56:32.064944 DATA sockfilt for passive data channel quits (pid 37865)
+14:56:32.065043 =====> Closed passive DATA connection
+14:56:32.065125 > "226 ASCII transfer complete[CR][LF]"
+14:56:32.303686 < "EPSV"
+14:56:32.303848 ====> Passive DATA channel requested by client
+14:56:32.303906 DATA sockfilt for passive data channel starting...
+14:56:32.317429 DATA sockfilt for passive data channel started (pid 37866)
+14:56:32.317720 DATA sockfilt for passive data channel listens on port 45655
+14:56:32.317821 > "229 Entering Passive Mode (|||45655|)[LF]"
+14:56:32.317863 Client has been notified that DATA conn will be accepted on port 45655
+14:56:32.322407 Client connects to port 45655
+14:56:32.322488 ====> Client established passive DATA connection on port 45655
+14:56:32.322687 < "TYPE I"
+14:56:32.322774 > "200 I modify TYPE as you wanted[CR][LF]"
+14:56:32.335250 < "RETR chmod1"
+14:56:32.335462 > "150 Binary data connection for chmod1 (38 bytes).[CR][LF]"
+14:56:32.335518 > ""
+14:56:32.335640 =====> Closing passive DATA connection...
+14:56:32.335688 Server disconnects passive DATA connection
+14:56:32.340748 DATA sockfilt for passive data channel quits (pid 37867)
+14:56:32.340827 =====> Closed passive DATA connection
+14:56:32.340913 > "226 File transfer complete[CR][LF]"
+14:56:32.357537 < "EPSV"
+14:56:32.357651 ====> Passive DATA channel requested by client
+14:56:32.357704 DATA sockfilt for passive data channel starting...
+14:56:32.369223 DATA sockfilt for passive data channel started (pid 37868)
+14:56:32.369537 DATA sockfilt for passive data channel listens on port 42549
+14:56:32.369648 > "229 Entering Passive Mode (|||42549|)[LF]"
+14:56:32.369704 Client has been notified that DATA conn will be accepted on port 42549
+14:56:32.371812 Client connects to port 42549
+14:56:32.371887 ====> Client established passive DATA connection on port 42549
+14:56:32.372873 < "RETR chmod2"
+14:56:32.373069 > "150 Binary data connection for chmod2 (38 bytes).[CR][LF]"
+14:56:32.373153 > ""
+14:56:32.373298 =====> Closing passive DATA connection...
+14:56:32.373347 Server disconnects passive DATA connection
+14:56:32.375064 DATA sockfilt for passive data channel quits (pid 37869)
+14:56:32.375129 =====> Closed passive DATA connection
+14:56:32.375210 > "226 File transfer complete[CR][LF]"
+14:56:32.422091 < "EPSV"
+14:56:32.422210 ====> Passive DATA channel requested by client
+14:56:32.422248 DATA sockfilt for passive data channel starting...
+14:56:32.428437 DATA sockfilt for passive data channel started (pid 37870)
+14:56:32.432119 DATA sockfilt for passive data channel listens on port 33697
+14:56:32.432260 > "229 Entering Passive Mode (|||33697|)[LF]"
+14:56:32.432309 Client has been notified that DATA conn will be accepted on port 33697
+14:56:32.433704 Client connects to port 33697
+14:56:32.433782 ====> Client established passive DATA connection on port 33697
+14:56:32.434450 < "RETR chmod3"
+14:56:32.434656 > "150 Binary data connection for chmod3 (38 bytes).[CR][LF]"
+14:56:32.434714 > ""
+14:56:32.434842 =====> Closing passive DATA connection...
+14:56:32.434905 Server disconnects passive DATA connection
+14:56:32.435419 DATA sockfilt for passive data channel quits (pid 37871)
+14:56:32.435474 =====> Closed passive DATA connection
+14:56:32.435541 > "226 File transfer complete[CR][LF]"
+14:56:32.438718 < "EPSV"
+14:56:32.438795 ====> Passive DATA channel requested by client
+14:56:32.438832 DATA sockfilt for passive data channel starting...
+14:56:32.452660 DATA sockfilt for passive data channel started (pid 37872)
+14:56:32.452997 DATA sockfilt for passive data channel listens on port 36323
+14:56:32.453111 > "229 Entering Passive Mode (|||36323|)[LF]"
+14:56:32.453162 Client has been notified that DATA conn will be accepted on port 36323
+14:56:32.454613 Client connects to port 36323
+14:56:32.454689 ====> Client established passive DATA connection on port 36323
+14:56:32.454868 < "RETR empty_file.dat"
+14:56:32.455164 > "150 Binary data connection for empty_file.dat (0 bytes).[CR][LF]"
+14:56:32.455214 > ""
+14:56:32.455321 =====> Closing passive DATA connection...
+14:56:32.455360 Server disconnects passive DATA connection
+14:56:32.459693 DATA sockfilt for passive data channel quits (pid 37873)
+14:56:32.459760 =====> Closed passive DATA connection
+14:56:32.459963 > "226 File transfer complete[CR][LF]"
+14:56:32.508022 < "EPSV"
+14:56:32.510375 ====> Passive DATA channel requested by client
+14:56:32.510456 DATA sockfilt for passive data channel starting...
+14:56:32.516914 DATA sockfilt for passive data channel started (pid 37874)
+14:56:32.517306 DATA sockfilt for passive data channel listens on port 37081
+14:56:32.517419 > "229 Entering Passive Mode (|||37081|)[LF]"
+14:56:32.517488 Client has been notified that DATA conn will be accepted on port 37081
+14:56:32.520572 Client connects to port 37081
+14:56:32.520657 ====> Client established passive DATA connection on port 37081
+14:56:32.520867 < "RETR file.txt"
+14:56:32.521090 > "150 Binary data connection for file.txt (35 bytes).[CR][LF]"
+14:56:32.521154 > ""
+14:56:32.521279 =====> Closing passive DATA connection...
+14:56:32.521347 Server disconnects passive DATA connection
+14:56:32.522781 DATA sockfilt for passive data channel quits (pid 37875)
+14:56:32.522845 =====> Closed passive DATA connection
+14:56:32.522930 > "226 File transfer complete[CR][LF]"
+14:56:32.525335 < "EPSV"
+14:56:32.525415 ====> Passive DATA channel requested by client
+14:56:32.525449 DATA sockfilt for passive data channel starting...
+14:56:32.532007 DATA sockfilt for passive data channel started (pid 37876)
+14:56:32.532447 DATA sockfilt for passive data channel listens on port 45993
+14:56:32.532574 > "229 Entering Passive Mode (|||45993|)[LF]"
+14:56:32.532625 Client has been notified that DATA conn will be accepted on port 45993
+14:56:32.536035 Client connects to port 45993
+14:56:32.536160 ====> Client established passive DATA connection on port 45993
+14:56:32.536372 < "RETR someothertext.txt"
+14:56:32.536587 > "150 Binary data connection for someothertext.txt (47 bytes).[CR][LF]"
+14:56:32.536637 > ""
+14:56:32.536769 =====> Closing passive DATA connection...
+14:56:32.536809 Server disconnects passive DATA connection
+14:56:32.538282 DATA sockfilt for passive data channel quits (pid 37877)
+14:56:32.538342 =====> Closed passive DATA connection
+14:56:32.538527 > "226 File transfer complete[CR][LF]"
+14:56:32.597376 < "CWD /"
+14:56:32.597495 > "250 CWD command successful.[CR][LF]"
+14:56:32.598240 < "CWD fully_simulated"
+14:56:32.598347 > "250 CWD command successful.[CR][LF]"
+14:56:32.599031 < "CWD UNIX"
+14:56:32.599116 > "250 CWD command successful.[CR][LF]"
+14:56:32.599938 < "EPSV"
+14:56:32.600006 ====> Passive DATA channel requested by client
+14:56:32.600038 DATA sockfilt for passive data channel starting...
+14:56:32.611417 DATA sockfilt for passive data channel started (pid 37878)
+14:56:32.612072 DATA sockfilt for passive data channel listens on port 38597
+14:56:32.612270 > "229 Entering Passive Mode (|||38597|)[LF]"
+14:56:32.612334 Client has been notified that DATA conn will be accepted on port 38597
+14:56:32.614079 Client connects to port 38597
+14:56:32.614161 ====> Client established passive DATA connection on port 38597
+14:56:32.614397 < "TYPE A"
+14:56:32.614507 > "200 I modify TYPE as you wanted[CR][LF]"
+14:56:32.617402 < "LIST"
+14:56:32.617512 > "150 here comes a directory[CR][LF]"
+14:56:32.617783 pass LIST data on data connection
+14:56:32.618009 =====> Closing passive DATA connection...
+14:56:32.618055 Server disconnects passive DATA connection
+14:56:32.623918 DATA sockfilt for passive data channel quits (pid 37879)
+14:56:32.624017 =====> Closed passive DATA connection
+14:56:32.624175 > "226 ASCII transfer complete[CR][LF]"
+14:56:32.626895 < "EPSV"
+14:56:32.627002 ====> Passive DATA channel requested by client
+14:56:32.627039 DATA sockfilt for passive data channel starting...
+14:56:32.631480 DATA sockfilt for passive data channel started (pid 37880)
+14:56:32.631736 DATA sockfilt for passive data channel listens on port 44269
+14:56:32.631827 > "229 Entering Passive Mode (|||44269|)[LF]"
+14:56:32.631865 Client has been notified that DATA conn will be accepted on port 44269
+14:56:32.633297 Client connects to port 44269
+14:56:32.633365 ====> Client established passive DATA connection on port 44269
+14:56:32.634012 < "TYPE I"
+14:56:32.634392 > "200 I modify TYPE as you wanted[CR][LF]"
+14:56:32.634971 < "RETR chmod1"
+14:56:32.635155 > "150 Binary data connection for chmod1 (38 bytes).[CR][LF]"
+14:56:32.637454 > ""
+14:56:32.637527 =====> Closing passive DATA connection...
+14:56:32.637565 Server finds passive DATA connection already disconnected
+14:56:32.637616 DATA sockfilt for passive data channel already dead
+14:56:32.637658 =====> Closed passive DATA connection
+14:56:32.637719 > "226 File transfer complete[CR][LF]"

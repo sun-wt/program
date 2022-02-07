@@ -1,0 +1,219 @@
+URL: ftp://127.0.0.1:8992/fully_simulated/UNIX/*
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+< 220-        _   _ ____  _     
+< 220-    ___| | | |  _ \| |    
+< 220-   / __| | | | |_) | |    
+< 220-  | (__| |_| |  _ {| |___ 
+< 220    \___|\___/|_| \_\_____|
+> USER anonymous
+< 331 We are happy you popped in!
+> PASS ftp@example.com
+< 230 Welcome you silly person
+> PWD
+< 257 "/" is current directory
+* Entry path is '/'
+* Wildcard - Parsing started
+> CWD fully_simulated
+* ftp_perform ends with SECONDARY: 0
+< 250 CWD command successful.
+> CWD UNIX
+< 250 CWD command successful.
+> EPSV
+* Connect data stream passively
+< 229 Entering Passive Mode (|||43951|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 43951
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> TYPE A
+< 200 I modify TYPE as you wanted
+> LIST
+< 150 here comes a directory
+* Maxdownload = -1
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 ASCII transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "."
+* Wildcard - START of ".."
+* Wildcard - START of "chmod1"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||45655|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 45655
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> TYPE I
+< 200 I modify TYPE as you wanted
+> RETR chmod1
+< 150 Binary data connection for chmod1 (38 bytes).
+* Maxdownload = -1
+* Getting file with size: 38
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "chmod2"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||42549|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 42549
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> RETR chmod2
+< 150 Binary data connection for chmod2 (38 bytes).
+* Maxdownload = -1
+* Getting file with size: 38
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "chmod3"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||33697|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 33697
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> RETR chmod3
+< 150 Binary data connection for chmod3 (38 bytes).
+* Maxdownload = -1
+* Getting file with size: 38
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "chmod4"
+* Wildcard - START of "chmod5"
+* Wildcard - START of "empty_file.dat"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||36323|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 36323
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> RETR empty_file.dat
+< 150 Binary data connection for empty_file.dat (0 bytes).
+* Maxdownload = -1
+* Getting file with size: 0
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "file.txt"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||37081|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 37081
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> RETR file.txt
+< 150 Binary data connection for file.txt (35 bytes).
+* Maxdownload = -1
+* Getting file with size: 35
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "link"
+* Wildcard - START of "link_absolute"
+* Wildcard - START of ".NeXT"
+* Wildcard - START of "someothertext.txt"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||45993|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 45993
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> RETR someothertext.txt
+< 150 Binary data connection for someothertext.txt (47 bytes).
+* Maxdownload = -1
+* Getting file with size: 47
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 File transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "weirddir.txt"
+* Remembering we are in dir "fully_simulated/UNIX/weirddir.txt"
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - Parsing started
+> CWD /
+* ftp_perform ends with SECONDARY: 0
+< 250 CWD command successful.
+> CWD fully_simulated
+< 250 CWD command successful.
+> CWD UNIX
+< 250 CWD command successful.
+> EPSV
+* Connect data stream passively
+< 229 Entering Passive Mode (|||38597|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 38597
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> TYPE A
+< 200 I modify TYPE as you wanted
+> LIST
+< 150 here comes a directory
+* Maxdownload = -1
+* Remembering we are in dir "fully_simulated/UNIX/"
+< 226 ASCII transfer complete
+* Connection #0 to host 127.0.0.1 left intact
+* Found bundle for host 127.0.0.1: 0x683b400 [serially]
+* Re-using existing connection! (#0) with host 127.0.0.1
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+* Wildcard - START of "."
+* Wildcard - START of ".."
+* Wildcard - START of "chmod1"
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+* ftp_perform ends with SECONDARY: 0
+< 229 Entering Passive Mode (|||44269|)
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connecting to 127.0.0.1 (127.0.0.1) port 44269
+* Connected to 127.0.0.1 (127.0.0.1) port 8992 (#0)
+> TYPE I
+< 200 I modify TYPE as you wanted
+> RETR chmod1
+< 150 Binary data connection for chmod1 (38 bytes).
+* Maxdownload = -1
+* Getting file with size: 38

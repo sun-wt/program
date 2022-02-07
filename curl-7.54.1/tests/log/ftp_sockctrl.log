@@ -1,0 +1,208 @@
+14:56:31.507159 ====> Client connect
+14:56:31.508796 Received DATA (on stdin)
+14:56:31.508995 > 160 bytes data, server => client
+14:56:31.509109 '220-        _   _ ____  _     \r\n220-    ___| | | |  _ \| | '
+14:56:31.509191 '   \r\n220-   / __| | | | |_) | |    \r\n220-  | (__| |_| |  '
+14:56:31.509256 '_ {| |___ \r\n220    \___|\___/|_| \_\_____|\r\n'
+14:56:31.549180 < 16 bytes data, client => server
+14:56:31.549334 'USER anonymous\r\n'
+14:56:31.552485 Received DATA (on stdin)
+14:56:31.552589 > 33 bytes data, server => client
+14:56:31.552645 '331 We are happy you popped in!\r\n'
+14:56:31.571107 < 22 bytes data, client => server
+14:56:31.571234 'PASS ftp@example.com\r\n'
+14:56:31.571746 Received DATA (on stdin)
+14:56:31.571789 > 30 bytes data, server => client
+14:56:31.571821 '230 Welcome you silly person\r\n'
+14:56:31.573074 < 5 bytes data, client => server
+14:56:31.573152 'PWD\r\n'
+14:56:31.573559 Received DATA (on stdin)
+14:56:31.573599 > 30 bytes data, server => client
+14:56:31.573635 '257 "/" is current directory\r\n'
+14:56:31.620771 < 21 bytes data, client => server
+14:56:31.620882 'CWD fully_simulated\r\n'
+14:56:31.621364 Received DATA (on stdin)
+14:56:31.621406 > 29 bytes data, server => client
+14:56:31.621436 '250 CWD command successful.\r\n'
+14:56:31.634255 < 10 bytes data, client => server
+14:56:31.634415 'CWD UNIX\r\n'
+14:56:31.634994 Received DATA (on stdin)
+14:56:31.635037 > 29 bytes data, server => client
+14:56:31.635070 '250 CWD command successful.\r\n'
+14:56:31.636607 < 6 bytes data, client => server
+14:56:31.636680 'EPSV\r\n'
+14:56:31.660821 Received DATA (on stdin)
+14:56:31.660969 > 38 bytes data, server => client
+14:56:31.661020 '229 Entering Passive Mode (|||43951|)\n'
+14:56:31.708498 < 8 bytes data, client => server
+14:56:31.708602 'TYPE A\r\n'
+14:56:31.710557 Received DATA (on stdin)
+14:56:31.710596 > 33 bytes data, server => client
+14:56:31.710637 '200 I modify TYPE as you wanted\r\n'
+14:56:31.718968 < 6 bytes data, client => server
+14:56:31.719071 'LIST\r\n'
+14:56:31.719892 Received DATA (on stdin)
+14:56:31.719936 > 28 bytes data, server => client
+14:56:31.719982 '150 here comes a directory\r\n'
+14:56:31.727216 Received DATA (on stdin)
+14:56:31.727269 > 29 bytes data, server => client
+14:56:31.727297 '226 ASCII transfer complete\r\n'
+14:56:31.964432 < 6 bytes data, client => server
+14:56:31.964554 'EPSV\r\n'
+14:56:31.982534 Received DATA (on stdin)
+14:56:31.982613 > 38 bytes data, server => client
+14:56:31.982660 '229 Entering Passive Mode (|||45655|)\n'
+14:56:31.984221 < 8 bytes data, client => server
+14:56:31.984273 'TYPE I\r\n'
+14:56:31.984833 Received DATA (on stdin)
+14:56:31.984871 > 33 bytes data, server => client
+14:56:31.984903 '200 I modify TYPE as you wanted\r\n'
+14:56:31.996850 < 13 bytes data, client => server
+14:56:31.996965 'RETR chmod1\r\n'
+14:56:31.997737 Received DATA (on stdin)
+14:56:31.997779 > 51 bytes data, server => client
+14:56:31.997811 '150 Binary data connection for chmod1 (38 bytes).\r\n'
+14:56:31.997879 Received DATA (on stdin)
+14:56:31.997914 > 0 bytes data, server => client
+14:56:31.997939 got 0 reading from stdin
+14:56:32.002982 Received DATA (on stdin)
+14:56:32.003028 > 28 bytes data, server => client
+14:56:32.003063 '226 File transfer complete\r\n'
+14:56:32.019172 < 6 bytes data, client => server
+14:56:32.019272 'EPSV\r\n'
+14:56:32.031776 Received DATA (on stdin)
+14:56:32.031828 > 38 bytes data, server => client
+14:56:32.031864 '229 Entering Passive Mode (|||42549|)\n'
+14:56:32.033546 < 13 bytes data, client => server
+14:56:32.033605 'RETR chmod2\r\n'
+14:56:32.035398 Received DATA (on stdin)
+14:56:32.035440 > 51 bytes data, server => client
+14:56:32.035506 '150 Binary data connection for chmod2 (38 bytes).\r\n'
+14:56:32.035586 Received DATA (on stdin)
+14:56:32.035624 > 0 bytes data, server => client
+14:56:32.035674 got 0 reading from stdin
+14:56:32.038443 Received DATA (on stdin)
+14:56:32.038505 > 28 bytes data, server => client
+14:56:32.038536 '226 File transfer complete\r\n'
+14:56:32.083621 < 6 bytes data, client => server
+14:56:32.085125 'EPSV\r\n'
+14:56:32.094353 Received DATA (on stdin)
+14:56:32.094443 > 38 bytes data, server => client
+14:56:32.094482 '229 Entering Passive Mode (|||33697|)\n'
+14:56:32.096267 < 13 bytes data, client => server
+14:56:32.096346 'RETR chmod3\r\n'
+14:56:32.097324 Received DATA (on stdin)
+14:56:32.097378 > 51 bytes data, server => client
+14:56:32.097428 '150 Binary data connection for chmod3 (38 bytes).\r\n'
+14:56:32.097500 Received DATA (on stdin)
+14:56:32.097533 > 0 bytes data, server => client
+14:56:32.097578 got 0 reading from stdin
+14:56:32.097606 Received DATA (on stdin)
+14:56:32.097633 > 28 bytes data, server => client
+14:56:32.097663 '226 File transfer complete\r\n'
+14:56:32.100470 < 6 bytes data, client => server
+14:56:32.100529 'EPSV\r\n'
+14:56:32.115228 Received DATA (on stdin)
+14:56:32.115278 > 38 bytes data, server => client
+14:56:32.115309 '229 Entering Passive Mode (|||36323|)\n'
+14:56:32.116441 < 21 bytes data, client => server
+14:56:32.116499 'RETR empty_file.dat\r\n'
+14:56:32.117039 Received DATA (on stdin)
+14:56:32.117081 > 58 bytes data, server => client
+14:56:32.117404 '150 Binary data connection for empty_file.dat (0 bytes).\r\n'
+14:56:32.118451 Received DATA (on stdin)
+14:56:32.118504 > 0 bytes data, server => client
+14:56:32.118561 got 0 reading from stdin
+14:56:32.121821 Received DATA (on stdin)
+14:56:32.121861 > 28 bytes data, server => client
+14:56:32.121904 '226 File transfer complete\r\n'
+14:56:32.169558 < 6 bytes data, client => server
+14:56:32.169729 'EPSV\r\n'
+14:56:32.179567 Received DATA (on stdin)
+14:56:32.179619 > 38 bytes data, server => client
+14:56:32.179654 '229 Entering Passive Mode (|||37081|)\n'
+14:56:32.180907 < 15 bytes data, client => server
+14:56:32.182398 'RETR file.txt\r\n'
+14:56:32.183401 Received DATA (on stdin)
+14:56:32.183444 > 53 bytes data, server => client
+14:56:32.183480 '150 Binary data connection for file.txt (35 bytes).\r\n'
+14:56:32.183538 Received DATA (on stdin)
+14:56:32.183576 > 0 bytes data, server => client
+14:56:32.183605 got 0 reading from stdin
+14:56:32.184988 Received DATA (on stdin)
+14:56:32.185029 > 28 bytes data, server => client
+14:56:32.185062 '226 File transfer complete\r\n'
+14:56:32.186878 < 6 bytes data, client => server
+14:56:32.186927 'EPSV\r\n'
+14:56:32.196099 Received DATA (on stdin)
+14:56:32.196233 > 38 bytes data, server => client
+14:56:32.196282 '229 Entering Passive Mode (|||45993|)\n'
+14:56:32.197555 < 24 bytes data, client => server
+14:56:32.197626 'RETR someothertext.txt\r\n'
+14:56:32.198875 Received DATA (on stdin)
+14:56:32.198927 > 62 bytes data, server => client
+14:56:32.198961 '150 Binary data connection for someothertext.txt (47 bytes).\r'
+14:56:32.198983 '\n'
+14:56:32.199060 Received DATA (on stdin)
+14:56:32.199091 > 0 bytes data, server => client
+14:56:32.199114 got 0 reading from stdin
+14:56:32.200410 Received DATA (on stdin)
+14:56:32.200454 > 28 bytes data, server => client
+14:56:32.200586 '226 File transfer complete\r\n'
+14:56:32.258993 < 7 bytes data, client => server
+14:56:32.259099 'CWD /\r\n'
+14:56:32.259572 Received DATA (on stdin)
+14:56:32.259618 > 29 bytes data, server => client
+14:56:32.259648 '250 CWD command successful.\r\n'
+14:56:32.259981 < 21 bytes data, client => server
+14:56:32.260027 'CWD fully_simulated\r\n'
+14:56:32.260448 Received DATA (on stdin)
+14:56:32.260487 > 29 bytes data, server => client
+14:56:32.260515 '250 CWD command successful.\r\n'
+14:56:32.260815 < 10 bytes data, client => server
+14:56:32.260861 'CWD UNIX\r\n'
+14:56:32.261328 Received DATA (on stdin)
+14:56:32.261372 > 29 bytes data, server => client
+14:56:32.261400 '250 CWD command successful.\r\n'
+14:56:32.261730 < 6 bytes data, client => server
+14:56:32.261770 'EPSV\r\n'
+14:56:32.274431 Received DATA (on stdin)
+14:56:32.274484 > 38 bytes data, server => client
+14:56:32.274523 '229 Entering Passive Mode (|||38597|)\n'
+14:56:32.275745 < 8 bytes data, client => server
+14:56:32.275824 'TYPE A\r\n'
+14:56:32.276682 Received DATA (on stdin)
+14:56:32.276735 > 33 bytes data, server => client
+14:56:32.276767 '200 I modify TYPE as you wanted\r\n'
+14:56:32.277133 < 6 bytes data, client => server
+14:56:32.277201 'LIST\r\n'
+14:56:32.280128 Received DATA (on stdin)
+14:56:32.280170 > 28 bytes data, server => client
+14:56:32.280202 '150 here comes a directory\r\n'
+14:56:32.286271 Received DATA (on stdin)
+14:56:32.286330 > 29 bytes data, server => client
+14:56:32.286368 '226 ASCII transfer complete\r\n'
+14:56:32.288446 < 6 bytes data, client => server
+14:56:32.288570 'EPSV\r\n'
+14:56:32.293916 Received DATA (on stdin)
+14:56:32.293979 > 38 bytes data, server => client
+14:56:32.294011 '229 Entering Passive Mode (|||44269|)\n'
+14:56:32.295783 < 8 bytes data, client => server
+14:56:32.295830 'TYPE I\r\n'
+14:56:32.296278 Received DATA (on stdin)
+14:56:32.296322 > 33 bytes data, server => client
+14:56:32.296447 '200 I modify TYPE as you wanted\r\n'
+14:56:32.296786 < 13 bytes data, client => server
+14:56:32.296829 'RETR chmod1\r\n'
+14:56:32.299137 Received DATA (on stdin)
+14:56:32.299207 > 51 bytes data, server => client
+14:56:32.299244 '150 Binary data connection for chmod1 (38 bytes).\r\n'
+14:56:32.299299 Received DATA (on stdin)
+14:56:32.299333 > 0 bytes data, server => client
+14:56:32.299358 got 0 reading from stdin
+14:56:32.300038 Received DATA (on stdin)
+14:56:32.300083 > 28 bytes data, server => client
+14:56:32.300112 '226 File transfer complete\r\n'
+15:04:17.925125 got 0 reading from stdin
+15:04:17.925205 exiting...
+15:04:17.925333 ============> sockfilt quits
