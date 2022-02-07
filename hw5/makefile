@@ -1,12 +1,11 @@
 CFLAGS = -O3 -Wall
-INCLUDE = -I curl-7.63.0/include
-LIB = -L curl-7.63.0/lib/.libs/
+INCLUDE = -I curl-7.54.1/include
+LIB = -L curl-7.54.1/lib/.libs/
 
 all: hw0501.o hw0502.o hw0503.o test-1.o
 	gcc hw0501.o -o hw0501 -lm
 	gcc hw0502.o -o hw0502 
 	gcc ${CFLAGS} ${INCLUDE} ${LIB} hw0503.c -o hw0503 -lcurl -lm
-	
 
 hw0501: hw0501.c
 	gcc -c hw0501.c -o hw0501.o -lm
