@@ -12,7 +12,7 @@ int main() {
     FILE *fp;
     CURLcode res;
     char error[CURL_ERROR_SIZE];
-    char url[50] = "https://vrabe.tw/blog/using-libcurl-in-c-or-cpp-in-linux/"; //要下載的網址
+    char url[256] = "https://www.notion.so/List-a31d78d15c974ed99490d4841d6f93b3"; //要下載的網址
     char outfilename[FILENAME_MAX] = "index.html"; //存檔路徑
 	curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
