@@ -13,7 +13,6 @@ long int mystrtol(const char *nptr, char **endptr , int base)
     if(*nptr == '-') {nptr++; sign = 1;}
     if(base == 0)
     {
-        printf("1");
         if(strncmp(nptr, "0x", 2) == 0) nptr += 2;
         base = 16;
     }
