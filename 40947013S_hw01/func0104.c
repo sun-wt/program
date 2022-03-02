@@ -3,7 +3,7 @@
 char *mystrchr(const char *s, int c)
 {
     while(*s != '\0')
-        if(*s == c) return s;
+        if(*s == c) return (char*)s;
         else s++;
     return NULL;
 }
@@ -12,7 +12,7 @@ char *mystrrchr(const char *s, int c)
 {
     while(*s != '\0') s++;
     while(s != 0)
-        if(*s == c) return s;
+        if(*s == c) return (char*)s;
         else s--;
     return NULL;
 }
@@ -48,7 +48,7 @@ char *mystrpbrk(const char *s, const char *accept)
     while(*s != '\0')
         while(*accept != '\0')
             if(*s != *accept) s++;
-            else return s;
+            else return (char*)s;
         accept++;
     return NULL;
 }

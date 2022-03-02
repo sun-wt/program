@@ -2,7 +2,7 @@
 
 int change(int c)
 {
-    return isalpha(c) ? (c-'a' >= 0 ? c-'a'+10 : c-'A'+10) : (c > '9' || c < '0' ? 37 : c-'0');
+    return (int)isalpha(c) ? (c-'a' >= 0 ? c-'a'+10 : c-'A'+10) : (c > '9' || c < '0' ? 37 : c-'0');
 }
 
 long int mystrtol(const char *nptr, char **endptr , int base)
@@ -21,6 +21,6 @@ long int mystrtol(const char *nptr, char **endptr , int base)
     for(int i = 0; i < size; i++) ans += change(nptr[i])* pow(base, size-i-1);
     ans *= pow(-1, sign);
     while(size != 0) {nptr++; size--;}
-    if(endptr != NULL) *endptr = nptr;
+    if(endptr != NULL) *endptr = (char*)nptr;
     return ans;
 }

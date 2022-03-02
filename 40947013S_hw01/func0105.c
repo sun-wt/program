@@ -19,7 +19,7 @@ pSeparator)
     }
     if(strstr(copy, pSeparator) == NULL) 
     {
-        *ppList = pStr; *pCounter = 1; return 0;
+        *ppList = (char*)pStr; *pCounter = 1; return 0;
     }
 
     int table[100]; table[0] = strlen(pStr)-strlen(pSeparator)+1;
