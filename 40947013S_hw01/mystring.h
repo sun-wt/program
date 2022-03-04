@@ -9,6 +9,9 @@
 #include <stdlib.h>
 #include <math.h>
 
+
+int change(int c);
+long int mystrtol(const char *nptr, char **endptr , int base);
 char *mystrchr(const char *s, int c);
 char *mystrrchr(const char *s, int c);
 size_t mystrspn(const char *s, const char *accept);
@@ -17,7 +20,5 @@ char *mystrpbrk(const char *s, const char *accept);
 char *mystrstr(char *haystack, const char *needle);
 bool isContained(const char *s, int c);
 char *mystrtok(char* str, const char* delim);
-int change(int c);
-long int mystrtol(const char *nptr, char **endptr , int base);
 
 #endif

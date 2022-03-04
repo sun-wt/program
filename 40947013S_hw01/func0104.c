@@ -19,14 +19,16 @@ char *mystrrchr(const char *s, int c)
 
 size_t mystrspn(const char *s, const char *accept)
 {
-    size_t size = 0;
+    size_t size = 0, last = size;
     while(*s != '\0')
     {
-        if(*accept == *s)
-            size++;
-        else break;
-        s++;
-        accept++;
+        for(int i = 0; i < strlen(accept); i++)
+        {
+            if(*s == accept[i])
+                size++;
+        }
+        if(last == size) break;
+        last = size; s++; 
     }
     return size;
 }
@@ -35,21 +37,26 @@ size_t mystrcspn(const char *s, const char *reject)
 {
     size_t size = 0;
     while(*s != '\0')
-        if(*reject == *s)
+    {
+        for(int i = 0; i < strlen(reject); i++)
         {
-            size++; reject++;
+            if(*s == reject[i]) return size;
         }
-        else break;
-    return size;
+        s++; size++;
+    }
+    return strlen(s);
 }
 
 char *mystrpbrk(const char *s, const char *accept)
 {
     while(*s != '\0')
-        while(*accept != '\0')
-            if(*s != *accept) s++;
-            else return (char*)s;
-        accept++;
+    {        
+        for(int i = 0; i < strlen(accept); i++)
+        {
+            if(*s == accept[i]) return (char*)s;
+        }
+        s++;
+    }    
     return NULL;
 }
 

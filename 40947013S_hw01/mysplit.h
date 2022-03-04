@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-int mystrsplit(char **ppList , int *pCounter , const char *pStr, const char *
+int mystrsplit(char ***ppList , int *pCounter , const char *pStr, const char *
 pSeparator);
 
 #endif
